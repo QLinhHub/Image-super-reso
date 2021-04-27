@@ -24,7 +24,6 @@ def denseblock(x, filters=96, k=3):
         x_temp = conv2dbase(x, filters=filters, kernel_size=3)
         x = Concatenate(axis=-1)([x, x_temp])
     
-    # ghi may cai except khi nhap k = 0 do cac kieu
     #do this for higher parameter and computational effciciency    
     if(k > 3):
         x = BatchNormalization()(x)
