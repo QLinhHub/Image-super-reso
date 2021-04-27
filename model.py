@@ -5,7 +5,6 @@ Created on Fri Oct  9 23:30:21 2020
 
 @author: quanglinhle
 """
-#can xem ky lai may cho Batch norm cung nhu relu tranh su dung qua nhieu, voi lam may cai try exception nhin cho chuyen nghiep
 
 import tensorflow as tf
 from tensorflow import keras
